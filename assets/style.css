@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap')
-
-*{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap') * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,11 +6,12 @@
 
 body {
   background-image: url(world.jpg);
-  
+
 }
-img{
-  background-repeat: no-repeat ;
-  max-width: 100%;
+
+image{
+  background-repeat: no-repeat repeat;
+  width: 100%;
   height: auto;
 }
 
@@ -28,7 +27,7 @@ img{
   transform: translate(-50%, -50%);
   opacity: 0.902;
   width: 440px;
-  height: 493px;
+  height: 550px;
   border-radius: 5px;
   filter: drop-shadow(0px 8px 10px rgba(0, 1, 1, 0.26));
   background-color: #f1f7fc
@@ -54,6 +53,7 @@ h1 {
   color: #4f4f4f;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
+
 }
 
 .email_input::placeholder {
@@ -75,25 +75,29 @@ h1 {
 
 .email_input {
   margin-bottom: 50px;
+  margin-top: 10px;
 }
 
 .password_input {
   margin-bottom: 55px;
 }
 
-#general ::rememberMe {
+#general input {
+  width: 21px;
+  height: 21px;
+  border-radius: 6px;
+  background-color: #04a9f4;
+}
+
+#general label {
   font-size: 14px;
   line-height: 28px;
   color: #8b8b8b;
   font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
-  width: 10px;
-  height: 7px;
-  background-color: #ffffff;
-  width: 21px;
-  height: 21px;
-  border-radius: 6px;
+  font-family:  "Proxima Nova";
+  margin-right: 160px;
 }
+
 
 a {
   font-size: 14px;
@@ -101,7 +105,39 @@ a {
   color: #04a9f4;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
-  text-align: right;
+  text-decoration: none;
+}
+
+
+
+#email {
+  opacity: 0.902;
+  font-size: 18px;
+  color: #555555;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+#password {
+  opacity: 0.800;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #4f4f4f;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
+
+.password_input::placeholder {
+  opacity: 0.902;
+  font-size: 36px;
+  color: #6e6e6e;
+  font-family: 'Open Sans', sans-serif;
+  
 }
 
 button {
@@ -120,55 +156,28 @@ button {
   border: none;
   background-color: #0896d7;
   cursor: pointer;
-}
-
-#email {
-  opacity: 0.902;
-  font-size: 18px;
-  color: #555555;
-  font-weight: 300;
-  font-family: 'Open Sans', sans-serif;
-}
-
-#password {
-  opacity: 0.800;
-  font-size: 14px;
-  letter-spacing: 2px;
-  line-height: 28px;
-  text-transform: uppercase;
-  color: #4f4f4f;
-  font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.password_input::placeholder {
-  opacity: 0.902;
-  font-size: 36px;
-  color: #6e6e6e;
-  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 25px;
 }
 
 .fa {
-  width: 170px;
-  height: 36px;
-  border-radius: 6px;
-  background-color: #3162a2;
+  text-decoration: none;
   font-size: 14px;
-  letter-spacing: 1px;
   line-height: 20px;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  margin-right: 50%;
-}
-
-.tw {
   width: 170px;
   height: 36px;
   border-radius: 6px;
-  background-color: #00aaf4;
+  background-color: #3162a2;
+  margin-right: 10px;
+}
+
+.tw {
+  text-decoration: none;
   font-size: 14px;
   letter-spacing: 1px;
   line-height: 20px;
@@ -177,4 +186,9 @@ button {
   font-weight: bold;
   font-family: "Proxima Nova";
   text-align: center;
+  width: 170px;
+  height: 36px;
+  border-radius: 6px;
+  background-color: #00aaf4;
+
 }

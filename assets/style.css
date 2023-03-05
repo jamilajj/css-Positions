@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap')
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(world.jpg);
+  
+}
+img{
+  background-repeat: no-repeat ;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 360px;
+  margin: auto;
+}
+
+#general {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.902;
+  width: 440px;
+  height: 493px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 8px 10px rgba(0, 1, 1, 0.26));
+  background-color: #f1f7fc
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #4f4f4f;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+  padding-top: 40px;
+}
+
+#general form input::email {
+  opacity: 0.800;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #4f4f4f;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.email_input::placeholder {
+  opacity: 0.902;
+  font-size: 18px;
+  color: #555555;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#general form input {
+  opacity: 0.702;
+  width: 351px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.7019607843137254);
+  border: 1px solid #d8d8d8;
+}
+
+.email_input {
+  margin-bottom: 50px;
+}
+
+.password_input {
+  margin-bottom: 55px;
+}
+
+#general ::rememberMe {
+  font-size: 14px;
+  line-height: 28px;
+  color: #8b8b8b;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  width: 10px;
+  height: 7px;
+  background-color: #ffffff;
+  width: 21px;
+  height: 21px;
+  border-radius: 6px;
+}
+
+a {
+  font-size: 14px;
+  line-height: 28px;
+  color: #04a9f4;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  text-align: right;
+}
+
+button {
+
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  filter: drop-shadow(0px -1px 0px rgba(0, 0, 0, 0.2));
+  width: 352px;
+  height: 55px;
+  border-radius: 4px;
+  border: none;
+  background-color: #0896d7;
+  cursor: pointer;
+}
+
+#email {
+  opacity: 0.902;
+  font-size: 18px;
+  color: #555555;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#password {
+  opacity: 0.800;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #4f4f4f;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.password_input::placeholder {
+  opacity: 0.902;
+  font-size: 36px;
+  color: #6e6e6e;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fa {
+  width: 170px;
+  height: 36px;
+  border-radius: 6px;
+  background-color: #3162a2;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-right: 50%;
+}
+
+.tw {
+  width: 170px;
+  height: 36px;
+  border-radius: 6px;
+  background-color: #00aaf4;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Proxima Nova";
+  text-align: center;
+}
